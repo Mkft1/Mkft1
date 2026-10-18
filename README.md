@@ -14,7 +14,7 @@
 **📊 Observability:** Prometheus (TSDB), Grafana, Loki, Promtail, VictoriaMetrics, ELK Stack (Elasticsearch, Logstash, Kibana, Metricbeat, Filebeat)  
 **🔐 Security & Supply Chain:** Sealed Secrets, SOPS, Age, Vault, Gitleaks, Kube-linter, Trivy  
 **🗄️ Базы данных:** PostgreSQL, Redis, MSSQL  
-**🐧 Операционные системы:** Linux (Ubuntu, Astra Linux, МосОС), Windows Server  
+**🐧 Операционные системы:** Linux (Ubuntu, Astra Linux, МоsОС), Windows Server  
 **🌐 Сети:** TCP/IP, HTTP/HTTPS, DNS, SSH, TLS/SSL, Nginx, REST API, Cilium  
 **📨 Очереди сообщений:** Kafka, RabbitMQ  
 **💻 Языки программирования:** Python, Go, Bash, C#, PowerShell  
