@@ -10,15 +10,16 @@
 
 **☁️ Cloud & IaC:** VK Cloud, Terraform, Ansible  
 **☸️ Оркестрация:** Kubernetes, Helm, Docker  
-**🔄 CI/CD & GitOps:** GitHub Actions, Argo CD,  GitLab CI
-**📊 Observability:** ELK Stack (Elasticsearch, Logstash, Kibana, Metricbeat, Filebeat), Prometheus (TSDB), Grafana, Loki, Promtail, VictoriaMetrics  
-SRE: Sealed Secrets, SOPS, Age, Gitleaks, Kube-linter, Trivy, 
-Базы данных: PostgreSQL, Redis, MS SQL
-Операционные системы: Linux (Ubuntu, Astra Linux, MosOS), Windows Server
-Сети: TCP/IP, HTTP/HTTPS, DNS, SSH, TLS/SSL, Nginx, REST API, Cilium
-Очереди сообщений: Kafka, RabbitMQ
-**💻 Языки программирования и запросов:** Python, Go, Bash, SQL (KQL, PromQL), C#, PowerShell  
-Методологии: IaC, DevOps, GitOps, DevSecOps, Zero Trust, RBAC
+**🔄 CI/CD & GitOps:** GitHub Actions, Argo CD, GitLab CI  
+**📊 Observability:** Prometheus (TSDB), Grafana, Loki, Promtail, VictoriaMetrics, ELK Stack (Elasticsearch, Logstash, Kibana, Metricbeat, Filebeat)  
+**🔐 Security & Supply Chain:** Sealed Secrets, SOPS, Age, Gitleaks, Kube-linter, Trivy  
+**🗄️ Базы данных:** PostgreSQL, Redis, MSSQL  
+**🐧 Операционные системы:** Linux (Ubuntu, Astra Linux, МосОС), Windows Server  
+**🌐 Сети:** TCP/IP, HTTP/HTTPS, DNS, SSH, TLS/SSL, Nginx, REST API, Cilium  
+**📨 Очереди сообщений:** Kafka, RabbitMQ  
+**💻 Языки программирования:** Python, Go, Bash, C#, PowerShell  
+**🔍 Языки запросов:** SQL, PromQL, KQL  
+**🧠 Подходы и принципы:** IaC, DevOps, GitOps, DevSecOps, Zero Trust, RBAC
 
 ---
 
