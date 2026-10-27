@@ -27,7 +27,7 @@
 
 ## 1. [k8s-gitops-demo](https://github.com/Mkft1/k8s-gitops-demo)
 
-**GitOps-платформа с нуля: IaC, DevSecOps и наблюдаемость в одном цикле**
+**GitOps-платформа: IaC, DevSecOps и наблюдаемость в одном цикле**
 
 Реализовала полный GitOps-цикл по принципу Single Source of Truth: любое изменение — только через коммит. Terraform поднимает Kind-кластер с CNI на eBPF (Cilium), Argo CD синхронизирует состояние по паттерну **App of Apps**, а GitHub Actions блокирует небезопасный код *до* попадания в кластер (Gitleaks, Kube-linter, Trivy). Секреты зашифрованы через Sealed Secrets и SOPS, наблюдаемость собрана на VictoriaMetrics + Loki + Grafana. Отдельно проработала **Disaster Recovery** — восстановление master key для Sealed Secrets через SOPS.
 
