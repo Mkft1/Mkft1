@@ -39,7 +39,7 @@
 
 **LLM-агент для RCA-диагностики Kubernetes-инцидентов (read-only, с guardrails)**
 
-Агент принимает алерт через REST API, собирает live-сигналы из K8s API (поды, события, логи, включая pre-restart при OOMKilled) и Prometheus, а затем через **RAG по runbook'ам** (TF-IDF, без внешней векторной БД — осознанный trade-off ради zero-infra) формирует структурированный RCA с evidence и suggested fix. По умолчанию **read-only** — агент только предлагает исправления, но не мутирует кластер. Строгий JSON-выход валидируется Pydantic с одним retry и честным fallback'ом. При падении любого источника данных агент не падает, а деградирует gracefully. **111 тестов**, GitHub Actions: lint → test → Docker build → kind-based e2e. Есть chaos self-test, который создаёт ImagePullBackOff и проверяет, что агент действительно находит причину.
+Агент принимает алерт через REST API, собирает live-сигналы из K8s API (поды, события, логи, включая pre-restart при OOMKilled) и Prometheus, а затем через **RAG по runbook'ам** (TF-IDF, без внешней векторной БД — осознанный trade-off ради zero-infra) формирует структурированный RCA с evidence и suggested fix. По умолчанию **read-only** — агент только предлагает исправления, но не мутирует кластер. Строгий JSON-выход валидируется Pydantic с одним retry и честным fallback'ом. При падении любого источника данных агент не падает, а деградирует gracefully. **258 тестов**, GitHub Actions: lint → test → Docker build → kind-based e2e. Есть chaos self-test, который создаёт ImagePullBackOff и проверяет, что агент действительно находит причину.
 
 `Python` `FastAPI` `Kubernetes` `Prometheus` `LLM` `RAG` `Pydantic` `Docker` `GitHub Actions`
 
